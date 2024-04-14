@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Gardient from '../components/Gardient.astro';
+import About from '../components/About.astro';
+import Timeline from '../components/Timeline.astro';
+import Projects from '../components/Projects.astro';
+import Banner from '../components/Banner.astro';
+import AboutMe from '../components/AboutMe.astro';
+---
+
+<Layout title="DiegoDev - Full-Stack Developer">
+	<main>
+		
+			<code class="text-gray-500 text-sm">v1.0</code>
+
+		
+		<Header />
+		<About />
+		<div class="Gardient"></div>
+		<Timeline />
+		<Gardient />
+		<AboutMe />
+	</main>
+	<Banner />
+</Layout>
+
+<style>
+	.Gardient {
+	position: relative;
+    width: 70%;
+    height: 0%;
+    left: 15%;
+    top: 50%;
+    box-shadow: rgba(126, 127, 128, 0.1) 0px 0px 150px 100px;
+    border-radius: 100px;
+	}
+</style>
