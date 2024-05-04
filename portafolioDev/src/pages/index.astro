@@ -6,17 +6,19 @@ import About from '../components/About.astro';
 import Conocimientos from '../components/Conocimientos.astro';
 import Projects from '../components/Projects.astro';
 import AboutMe from '../components/AboutMe.astro';
+
 ---
 
 <Layout title="DiegoDev - Full-Stack Developer">
-	<main>
+	<main class="animate-fade-in-up animate-delay-500">
 		<Header />
-		<code class="text-gray-500 text-sm">v1.0</code>		
+		<code class="text-gray-500 text-sm animation-fade-in animation-delay-100">v1.0</code>		
 		<About />
 		<div class="Gardient"></div>
 		<Gardient />
 		<AboutMe />
 		<Projects />
+		
 		<Conocimientos />	
 	</main>
 	
